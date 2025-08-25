@@ -454,8 +454,8 @@ kable(head(peak_hour_hotspots, 10), caption = "Top 10 Hotspots by Peak Hour") %>
     
 
 ## Share Data
-Based on our data analysis, we will use Tableau for our visualizations to create interactive maps, charts, and dashboards that highlight usage patterns and support membership conversion strategies.
-### 1. Export data for Tableau visualizations: 
+Based on our data analysis, we will use Tableau for our visualizations to create interactive maps, charts, and dashboards that highlight usage patterns and support membership conversion strategies. 
+### Export data for Tableau visualizations: 
 ```{r}
 ## Export key analysis outputs as CSV files
 ### Set output directory
@@ -490,6 +490,18 @@ write_csv(Full_Year_df_sample, file.path(output_dir, "full_year_df_sample.csv"))
 ### Full dataset
 write_csv(Full_Year_df, file.path(output_dir, "full_year_df.csv"))
 ```
+
+The final dashboard is published in Tableau public (Link: “https://public.tableau.com/app/profile/asmae.addab/viz/GoogleCapstoneProject_CyclisticBike-ShareAnalysis/Dashboard3")
+
+
+## Project Recommendations:
+-	Boost Member Conversion: Target casual riders in weekend/leisure hotspots with promotions and trial memberships to encourage annual subscriptions.
+-	Optimize Bike Allocation:  Prioritize electric bike availability at casual hotspots on weekends and member hotspots on weekdays.
+-	Seasonal & Location-Based Campaigns: Run promotions during spring/summer and near high-traffic recreational areas to maximize casual rider engagement.
+-	Enhance System Reliability: Strengthen docking station maintenance to prevent short and long rides and ensure reliability at high-traffic hotspots for both user types.
+-	Tailor Engagement by User Behavior: Send personalized offers to members for weekday commutes and to casual riders for weekend leisure trips, aligned with peak hours.
+-	Plan for Growth & Maintenance: Use hotspot and duration trends to guide station placement, bike type distribution, and maintenance scheduling.
+
 
 
 
