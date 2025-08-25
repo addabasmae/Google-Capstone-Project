@@ -1,4 +1,4 @@
-# Google-Capstone-Project_Cyclistic Bike-Share Analysis
+# Cyclistic Bike-Share Analysis
 
 ## Project Brief:
 - Company activity: Cyclistic is a bike-sharing company that has a fleet of 5,824 bicycles geotracked and locked into a network of 692 stations across Chicago. These bikes can be unlocked from one station and returned to any other station in the system anytime. 
