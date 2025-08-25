@@ -1,13 +1,13 @@
 # Cyclistic Bike-Share Analysis
 
-## Project Brief:
+## Project Brief
 - Company activity: Cyclistic is a bike-sharing company that has a fleet of 5,824 bicycles geotracked and locked into a network of 692 stations across Chicago. These bikes can be unlocked from one station and returned to any other station in the system anytime. 
 The company offers three flexibility pricing plans: Single-ride passes, full-day passes and annual memberships. Customers who purchase single-ride or full-day passes are referred to as casual riders. Customers who purchase annual memberships are Cyclistic members.
 - Problem: Annual members are much more profitable than casual riders.
 - Strategic goal: Maximizing the number of annual memberships by designing marketing strategies aimed at converting casual riders into annual members. 
 - Key Stakeholders: Cyclistic executives, Marketing Director (Lily Moreno) and marketing analytics team.
 
-## Business Task:
+## Business Task
 - Business Task Statement: Understand how annual members and casual riders use Cyclistic bikes differently so targeted marketing strategies can be recommended for conversion.
 - Guiding questions:
   -	How do casual riders and annual members differ in their usage patterns?
@@ -15,12 +15,12 @@ The company offers three flexibility pricing plans: Single-ride passes, full-day
   -	Are there any preferences in bike types used by each group?
   -	What are the most popular locations for each group?
 
-## Prepare Phase - Data Sources Description:
+## Prepare Phase - Data Sources Description
 -	The data is first-party collected directly from Cyclistic’s historical trip data, it is updated regularly, and the data source/license are available.
 -	The data we will be working with is a public (open) data that is respecting privacy measures considering that we don’t have access to riders’ personally identifiable information. The company is making the data available under a license that allows us to access, reproduce, analyze, copy, modify and distribute the data.
 -	For our analysis we are using 12 csv files, each of them includes monthly bike rides starting from December 2023 to November 2024.
 
-## Process Phase – Cleaning and Manipulation of Data:
+## Process Phase – Cleaning and Manipulation of Data
 We will be using R to clean and analyze the data as the datasets are too large and it will help us organize, modify and clean dataframes. The detailed processing and analysis code is documented in the attached R Markdown file “Cyclistic Bike-Share Analysis.Rmd”. 
 Nevertheless, the main steps we followed are summarized below: 
 -	Installing and loading required packages such as tidyverse, lubridate, janitor, etc.
@@ -40,7 +40,7 @@ Nevertheless, the main steps we followed are summarized below:
   -	Renaming the columns of “rideable_type” and “member_casual” to “bike_type” and “user_type” to improve clarity.
   -	Saving the cleaned dataset.
 
-## Analyze Phase - Analysis Summary:
+## Analyze Phase - Analysis Summary
 After processing and cleaning the dataset, we will keep using R to calculate key metrics and identify patterns differentiating casual riders and annual members. This supports our business task of enhancing membership conversion strategies. The main steps in our analysis are outlined below: 
 -	Calculating the total rides and user type breakdown including rides count and percentage.
 -	Calculating the overall average ride duration as well duration statistics by user type. These include average, median, minimum and maximum durations. 
@@ -52,13 +52,13 @@ After processing and cleaning the dataset, we will keep using R to calculate key
   -	Identifying temporal trends within geospatial hotspots by defining peak weekdays and hours in top hotspots and determining the major hotspots during peak days and hours.
   -	Exporting key analysis outputs as CSV files for Tableau visualizations.
 
-## Share Phase - Supporting Visualizations: 
+## Share Phase - Supporting Visualizations
 Based on our data analysis, we will use Tableau for our visualizations to create interactive maps, charts, and dashboards that highlight usage patterns and support membership conversion strategies.
 
 The final dashboard is published in Tableau public (Link: “https://public.tableau.com/app/profile/asmae.addab/viz/GoogleCapstoneProject_CyclisticBike-ShareAnalysis/Dashboard3")
 
 
-## Project Recommendations:
+## Project Recommendations
 -	Boost Member Conversion: Target casual riders in weekend/leisure hotspots with promotions and trial memberships to encourage annual subscriptions.
 -	Optimize Bike Allocation:  Prioritize electric bike availability at casual hotspots on weekends and member hotspots on weekdays.
 -	Seasonal & Location-Based Campaigns: Run promotions during spring/summer and near high-traffic recreational areas to maximize casual rider engagement.
